@@ -1,4 +1,4 @@
-package fromjavatoscala
+package basic.fromjavatoscala
 
 import java.util
 

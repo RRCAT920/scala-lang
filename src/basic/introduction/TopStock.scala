@@ -1,10 +1,11 @@
-package introduction
+package basic.introduction
 
 /**
  * @author huzihao
  * @since 2020/12/9 01:09
  */
 object TopStock extends App {
+
   case class Record(year: Int, month: Int, date: Int, closePrice: BigDecimal)
 
   def getYearEndClosingPrice(symbol: String, year: Int): BigDecimal = {

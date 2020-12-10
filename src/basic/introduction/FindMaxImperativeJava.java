@@ -1,4 +1,4 @@
-package introduction;
+package basic.introduction;
 
 import java.util.Arrays;
 import java.util.List;

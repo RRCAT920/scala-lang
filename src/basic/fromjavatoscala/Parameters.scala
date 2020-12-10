@@ -1,11 +1,14 @@
-package fromjavatoscala
+package basic.fromjavatoscala
 
 /**
  * @author huzihao
  * @since 2020/12/10 15:43
  */
 object Parameters extends App {
-  def max(values: Int*) = values.foldLeft(values(0)) { Math.max }
+  def max(values: Int*) = values.foldLeft(values(0)) {
+    Math.max
+  }
+
   println(max(8, 2, 3))
 
   def function(input: Int*): Unit = println(input.getClass)

@@ -4,11 +4,11 @@ package basic.workingwithobjects;
  * @author huzihao
  * @since 2020/12/10 20:20
  */
-public class Car {
+public class CarJava {
     private final int year;
     private int miles;
 
-    public Car(int year) {
+    public CarJava(int year) {
         this.year = year;
     }
 
